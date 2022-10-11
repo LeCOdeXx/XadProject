@@ -9,7 +9,7 @@ public class ChessPosition {
 
 	public ChessPosition(char column, int row) {
 		if (column < 'a' || column > 'h' || row < 1 || row > 8) {
-			throw new ChessException("Os valores validos são de A1 e H8");
+			throw new ChessException("Os valores validos sao de A1 e H8");
 		}
 		this.column = column;
 		this.row = row;
